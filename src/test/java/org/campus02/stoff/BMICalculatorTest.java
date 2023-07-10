@@ -18,7 +18,7 @@ class BMICalculatorTest {
 	@Test
 	@DisplayName("Konstruktor Test")
 	void constructorTest() {
-		double expectedWeight = 180;
+		double expectedWeight = 100;
 		double expectedHeight = 1.8;
 
 		assertEquals(expectedWeight, bmiCalculator.getWeightInKg());
